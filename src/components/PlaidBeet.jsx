@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import plaidbeet from './assets/P2PDWD3.png'
+import plaidbeet from '../assets/P2PDWD3.png'
 
 function PlaidBeet() {
 
