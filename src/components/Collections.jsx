@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import '../App.css'
+import buffaloRyth from 'src/assets/P2PDWD1.png'
+import checkwave from 'src/assets/P2PDWD2.png'
+import plaidbeet from 'src/assets/P2PDWD3.png'
 
 function Collections() {
   return (
@@ -10,19 +13,19 @@ function Collections() {
       </div>
       <div id='products'>
         <Link className='product' to="/buffaloryth">
-            <img src='src/assets/P2PDWD1.png' alt='headphone' loading='lazy'/>
+            <img src={buffaloRyth} alt='headphone' loading='lazy'/>
             <h3 className='productText'>BUFFALO <span className='redT'>R</span>YTH</h3>
             <p className='productText'>20,000 NAIRA</p>
         </Link>
 
         <Link className='product' to="/checkwave">
-            <img src='src/assets/P2PDWD2.png' alt='headphone' loading='lazy'/>
+            <img src={checkwave} alt='headphone' loading='lazy'/>
             <h3 className='productText'>CHECK <span className='redT'>W</span>AVE</h3>
             <p className='productText'>25,000 NAIRA</p>
         </Link>
 
         <Link className='product' to="/plaidbeet">
-            <img src='src/assets/P2PDWD3.png' alt='headphone' loading='lazy'/>
+            <img src={plaidbeet} alt='headphone' loading='lazy'/>
             <h3 className='productText'>PLAID <span className='redT'>B</span>EET</h3>
             <p className='productText'>20,000 NAIRA</p>
         </Link>
