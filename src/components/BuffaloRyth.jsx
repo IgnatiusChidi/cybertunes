@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import buffaloRyth from 'src/assets/P2PDWD1.png'
 
 function BuffaloRyth() {
 
@@ -8,7 +9,7 @@ function BuffaloRyth() {
   return (
     <section id='Hero'>
         <div id='heroImage'>
-            <img src='src/assets/P2PDWD1.png' alt='headphone' loading='lazy'/>
+            <img src={buffaloRyth} alt='headphone' loading='lazy'/>
         </div>
         <div id='heroText'>
             <h3 className='productText'>BUFFALO <span className='redT'>R</span>YTH</h3>
