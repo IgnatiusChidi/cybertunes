@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import buffaloRyth from './assets/P2PDWD1.png'
+import buffaloRyth from '../assets/P2PDWD1.png'
 
 function BuffaloRyth() {
 
