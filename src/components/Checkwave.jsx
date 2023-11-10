@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import checkwave from 'src/assets/P2PDWD2.png'
 
 
 function Checkwave() {
@@ -9,7 +10,7 @@ function Checkwave() {
   return (
     <section id='Hero'>
         <div id='heroImage'>
-            <img src='src/assets/P2PDWD2.png' alt='headphone' loading='lazy'/>
+            <img src={checkwave} alt='headphone' loading='lazy'/>
         </div>
         <div id='heroText'>
             <h3 className='productText'>CHECK <span className='redT'>W</span>AVE</h3>
