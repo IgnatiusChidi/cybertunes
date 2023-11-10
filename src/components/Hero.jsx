@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom"
 import { Route, Routes } from "react-router-dom"
 import '../App.css'
-import img from 'src/assets/P2PDWD2.png'
+import img from './assets/P2PDWD2.png'
 
 function Hero() {
   return (
