@@ -2,12 +2,13 @@ import React from 'react'
 import { Link } from "react-router-dom"
 import { Route, Routes } from "react-router-dom"
 import '../App.css'
+import img from 'src/assets/P2PDWD2.png'
 
 function Hero() {
   return (
     <section id='Hero'>
         <div id='heroImage'>
-            <img src='src/assets/P2PDWD2.png' alt='headphone' loading='lazy'/>
+            <img src={img} alt='headphone' loading='lazy'/>
         </div>
         <div id='heroText'>
             <h1>CYBER<span className='redT'>T</span>UNES</h1>
