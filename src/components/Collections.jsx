@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import '../App.css'
-import buffaloRyth from './assets/P2PDWD1.png'
-import checkwave from './assets/P2PDWD2.png'
-import plaidbeet from './assets/P2PDWD3.png'
+import buffaloRyth from '../assets/P2PDWD1.png'
+import checkwave from '../assets/P2PDWD2.png'
+import plaidbeet from '../assets/P2PDWD3.png'
 
 function Collections() {
   return (
