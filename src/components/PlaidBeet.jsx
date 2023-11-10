@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import plaidbeet from 'src/assets/P2PDWD3.png'
 
 function PlaidBeet() {
 
@@ -8,7 +9,7 @@ function PlaidBeet() {
     <div>
         <section id='Hero'>
             <div id='heroImage'>
-                <img src='src/assets/P2PDWD3.png' alt='headphone'/>
+                <img src={plaidbeet} alt='headphone'/>
             </div>
             <div id='heroText'>
             <h3 className='productText'>PLAID <span className='redT'>B</span>EET</h3>
