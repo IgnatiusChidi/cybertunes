@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import checkwave from './assets/P2PDWD2.png'
+import checkwave from '../assets/P2PDWD2.png'
 
 
 function Checkwave() {
